@@ -1,4 +1,23 @@
+# Jekyll build output
 _site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
-Gemfile.lock
+
+# Bundler / Ruby local stuff
+vendor/bundle
+.bundle
+
+# macOS
+.DS_Store
+
+# git
+.github
+.vscode
+
+_tasks
+
+
+
+
+

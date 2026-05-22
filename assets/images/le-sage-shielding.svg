@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Le Sage shielding diagram</title>
+  <desc id="desc">Two bodies inside an isotropic rain of corpuscles. Each casts a slight shadow on the other, producing a net push toward the center.</desc>
+  <rect width="960" height="460" fill="#fbfaf5"/>
+  <text x="480" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#1f2a44">Le Sage's basic idea: an attraction made out of missing pushes</text>
+  <text x="480" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44506b">A nearly isotropic corpuscle rain strikes from all directions, except for the tiny shadow each body casts on the other.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6d7b9c"/>
+    </marker>
+    <marker id="strongArrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c45c3b"/>
+    </marker>
+  </defs>
+
+  <circle cx="335" cy="250" r="74" fill="#d8e6ff" stroke="#355070" stroke-width="3"/>
+  <circle cx="625" cy="250" r="62" fill="#d8e6ff" stroke="#355070" stroke-width="3"/>
+  <text x="335" y="256" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#22314d">Body A</text>
+  <text x="625" y="256" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#22314d">Body B</text>
+
+  <path d="M408 218 C470 198, 492 198, 552 218 L552 282 C492 302, 470 302, 408 282 Z" fill="#f8e8b7" opacity="0.85"/>
+  <text x="480" y="201" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#7a5f17">small flux deficit between the bodies</text>
+
+  <line x1="82" y1="130" x2="248" y2="194" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="78" y1="218" x2="246" y2="235" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="88" y1="320" x2="246" y2="278" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="872" y1="130" x2="710" y2="194" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="882" y1="218" x2="714" y2="235" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="872" y1="320" x2="714" y2="278" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="304" y1="96" x2="322" y2="170" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="654" y1="96" x2="636" y2="176" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="300" y1="394" x2="320" y2="328" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="658" y1="392" x2="638" y2="322" stroke="#6d7b9c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <line x1="268" y1="250" x2="220" y2="250" stroke="#c45c3b" stroke-width="6" marker-end="url(#strongArrow)"/>
+  <line x1="692" y1="250" x2="740" y2="250" stroke="#c45c3b" stroke-width="6" marker-end="url(#strongArrow)"/>
+  <text x="193" y="238" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#8f3e24">full outer bombardment</text>
+  <text x="767" y="238" text-anchor="start" font-family="Georgia, serif" font-size="16" fill="#8f3e24">full outer bombardment</text>
+
+  <line x1="430" y1="250" x2="398" y2="250" stroke="#b8a46d" stroke-width="4" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+  <line x1="530" y1="250" x2="560" y2="250" stroke="#b8a46d" stroke-width="4" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+  <text x="480" y="355" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#22314d">Net effect in the toy picture: each body is pushed inward because the inward-going flux is slightly depleted.</text>
+  <text x="480" y="388" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#51607f">This appealing sketch is the beginning of the theory, not the end of the calculation.</text>
+</svg>

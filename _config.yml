@@ -26,6 +26,10 @@ search: false
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+mathjax: false
+kramdown:
+  input: GFM
+  math_engine: mathjax
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
