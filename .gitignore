@@ -12,7 +12,9 @@ vendor/bundle
 .DS_Store
 
 # git
-.github
+.github/*
+!.github/workflows/
+!.github/workflows/**
 .vscode
 
 _tasks
