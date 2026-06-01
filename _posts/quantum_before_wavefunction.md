@@ -15,7 +15,8 @@ only quantum physics I can remember is 'particles in the box' from university le
 
 
 
-...... twentieth century, one of the most precise sets of experimental data in physics came from a very simple object: a cavity heated until it glowed. The radiation escaping through a small hole in the cavity wall was found to have a very specific intensity as a function of wavelength. This curve is now known as the blackbody spectrum. Classical physics seemed perfectly capable of handling the problem, but the resulting formulas failed in a dramatic way.The resolution proposed by Max Planck in 1900 introduced a single modification in the energy of radiation and, with it, the first appearance of the quantum.
+
+As far as I know, one of the most precise sets of experimental data in physics came from a very simple object: a cavity heated until it glowed. The radiation escaping through a small hole in the cavity wall was found to have a very specific intensity as a function of wavelength. This curve is now known as the blackbody spectrum. Classical physics seemed perfectly capable of handling the problem, but the resulting formulas failed in a dramatic way.The resolution proposed by Max Planck in 1900 introduced a single modification in the energy of radiation and, with it, the first appearance of the quantum.
 
 Consider a large cavity at a temperature $T$. A small aperture allows observation of the radiation inside without significantly disturbing it. The radiation field in the cavity can be described by standing electromagnetic waves satisfying the boundary conditions at the walls.
 A standard idealisation is a cube of side $L$, volume $V=L^3$, with perfectly conducting walls. The electromagnetic field inside can be decomposed into normal modes labelled by an integer triplet $(n_x,n_y,n_z)$ and a polarisation index. Each mode has a frequency

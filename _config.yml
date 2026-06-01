@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 github_username: ThanapolKhamhla
 url: https://thanapolkhamhla.github.io
-baseurl: /myrandomwalk
+baseurl: ""
 minimal_mistakes_skin: default
 search: false
 
@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Thanapol Khamhla"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -87,7 +87,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:

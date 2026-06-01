@@ -1,18 +1,15 @@
 ---
-title: "Tiny worker for "
+title: "Tiny worker"
 excerpt: "Le Sage tried to replace gravitational attraction with an invisible rain of fast corpuscles. The idea is clever, intuitive, and analytically disastrous."
 categories:
-  - physics
+  - blog
 tags:
-  - gravity
-  - history-of-physics
-  - simulation
-  - foundations
+  - physics
 classes: wide
 mathjax: true
 ---
 
-Sometimes failed theories are more revealing than successful ones. A successful theory usually reaches us already compressed into textbook form, polished until all the anxiety that produced it has been hidden. A failed theory still shows its seams. We can see what problem its creator was trying to solve, what kind of explanation felt satisfying at the time, and exactly where nature refused to cooperate. That is why Le Sage's theory of gravitation is still worth reading now. It is wrong, and wrong in a very instructive way, but it begins from a discomfort that is hard not to feel even today.
+Sometimes failed theories are more revealing than successful ones. A successful theory usually reaches me when they are already compressed into textbook form, polished until all the anxiety that produced it has been hidden. A failed theory still shows its seams. I can still see what problem its creator was trying to solve, what kind of explanation felt satisfying at the time, and exactly where nature refused to cooperate. That is why Le Sage's theory of gravitation is still worth reading now. It is wrong, and wrong in a very instructive way, but it begins from a discomfort that is hard not to feel even today.
 
 Newton's law of gravitation,
 
@@ -24,7 +21,7 @@ is one of the great compressions in physics. With it we can organize falling bod
 
 Le Sage's answer is almost irresistibly concrete. Instead of one body mysteriously pulling another across empty space, we imagine the universe filled with tiny invisible corpuscles racing in from all directions at enormous speed. A single isolated body feels no net force because the impacts balance. Two nearby bodies, however, screen one another. Each removes a tiny part of the incoming flux that would otherwise strike the inward-facing side of the other. The outer sides still receive the full bombardment. The inner sides receive slightly less. The two bodies therefore drift together, not because they pull, but because they are pushed.
 
-We can see immediately why this picture had appeal. It turns attraction into pressure imbalance. It replaces a remote influence with local collisions. It has the flavor of kinetic theory, the same style of explanation that later made gas pressure and heat feel intelligible. Nicolas Fatio de Duillier had already explored related corpuscular ideas before Georges-Louis Le Sage developed the picture more fully in the eighteenth century, and the broader philosophical urge behind the theory was perfectly understandable. If gravity is real, should it not come from some medium, some traffic of causes, some mechanism that operates locally rather than mysteriously? That instinct was not foolish at all.
+We might see immediately why this picture had appeal. It turns attraction into pressure imbalance. It replaces a remote influence with local collisions. It has the flavor of kinetic theory, the same style of explanation that later made gas pressure and heat feel intelligible. Nicolas Fatio de Duillier had already explored related corpuscular ideas before Georges-Louis Le Sage developed the picture more fully in the eighteenth century, and the broader philosophical urge behind the theory was perfectly understandable. If gravity is real, should it not come from some medium, some traffic of causes, some mechanism that operates locally rather than mysteriously? That instinct was not foolish at all.
 
 The difficulty is that a vivid mechanism is not yet a viable theory. A viable theory must survive its own arithmetic. It must give the right dependence on distance, the right dependence on mass, the right behavior for moving bodies, and tolerable side effects. Le Sage's theory begins with one genuinely promising feature, and it is worth being fair about that before we start dismantling it. The geometry of shadowing really can produce something very close to an inverse-square law.
 
@@ -327,13 +324,9 @@ kappa      tau_sun  F/F_Newt    P_required      v_min/c      qdot(v=c)    n_p(v=
 
 For representative values, the theory corners itself almost immediately. When $\kappa = 1.0 \times 10^{-14}\,\mathrm{m^2/kg}$, the Sun is comfortably thin and the force law is still close to Newton, but the required pressure is about $8.4 \times 10^{18}\,\mathrm{Pa}$ and the drag constraint pushes the corpuscle speed to roughly $1.4 \times 10^3 c$. When $\kappa = 7.6 \times 10^{-13}\,\mathrm{m^2/kg}$, chosen only because it makes the Sun barely thin, the force ratio has already fallen to about $0.62$, the required pressure is still $1.5 \times 10^{15}\,\mathrm{Pa}$, the minimum speed is still about $18c$, and the heating rate at $v=c$ is around $2.5 \times 10^{11}\,\mathrm{W/kg}$. These are not small corrections. They are structural failures.
 
-And this is what makes Le Sage's theory so useful pedagogically. The geometry is not the villain. The first sketch is clever. The inverse-square behavior can emerge from shadowing. The real problem appears only when we ask the same mechanism to do everything else gravity does: scale properly with mass, stay nearly universal across different bodies, avoid severe drag, avoid catastrophic heating, and remain dynamically gentle on astronomical scales. The very same feature that makes the theory appealing, a force built from an anisotropic flux, is also what makes the side effects unavoidable.
+The geometry is not the villain here. The first sketch is clever. The inverse-square behavior can emerge from shadowing. The real problem appears only when we ask the same mechanism to do everything else gravity does: scale properly with mass, stay nearly universal across different bodies, avoid severe drag, avoid catastrophic heating, and remain dynamically gentle on astronomical scales. The very same feature that makes the theory appealing, a force built from an anisotropic flux, is also what makes the side effects unavoidable.
 
-We do not need general relativity to see the failure, though general relativity certainly does not rescue it. Even inside a pre-Einstein mechanical worldview, Le Sage's model already struggles to provide a universal inverse-square interaction between moving bodies without paying impossible costs in pressure, speed, and energy transfer. A theory of gravity must do more than produce an inward force. It must do so with the right scaling, the right symmetry, and tolerable collateral damage. Le Sage's corpuscles can produce a story; they cannot, at least not without impossible bookkeeping, produce our universe.
-
-That is why the theory remains valuable to study. It shows us a temptation that physics meets again and again: the temptation to mistake a vivid mechanism for a successful one. The picture is easy to like. The numbers are not. The shadow whispers Newton, but the drag, opacity, and heating shout back.
-
-**Further reading.** If this old mechanical dream is as attractive to you as it is to many readers on first contact, the most useful next step is to read a few works that place it in a wider arc rather than leaving it as an isolated curiosity.
+**Further reading.** 
 
 - Max Jammer, *Concepts of Force*. very good historical guide to the long struggle over action at a distance, mechanism, and what it even means to explain a force.
 - Stephen G. Brush, *The Kind of Motion We Call Heat*. This is broader than Le Sage alone, but it helps situate the whole mechanical imagination that made impact-based explanations feel so compelling.
