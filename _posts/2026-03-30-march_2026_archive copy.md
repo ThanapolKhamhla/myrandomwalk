@@ -3,7 +3,7 @@ title: "March 2026 Archive"
 categories:
   - blog
 tags:
-  - achive
+  - archive
 classes: wide
 mathjax: true
 ---
